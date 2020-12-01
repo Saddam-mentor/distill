@@ -26,8 +26,6 @@ import com.mentor.utility.Constants;
 import com.mentor.utility.Utility;
 
 public class ApprovedLabelsReportImpl {
-	
-	// =======================print report=================================
 
 	public void printReport(ApprovedLabelsReportAction act)
 	{
