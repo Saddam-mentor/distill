@@ -86,17 +86,7 @@ public class BWFL_StockRegisterAction {
 
 
 
-	public ArrayList getDistList() {/*
-									 * 
-									 * if (vch.equals("D")) { this.distList =
-									 * impl.getChallanDataDist(); } else if
-									 * (vch.equals("B")) { this.distList =
-									 * impl.getChallanDataBrew(); } else if
-									 * (vch.equals("BWFL")) { this.distList =
-									 * impl.getChallanDataBWFL(); } else if
-									 * (vch.equals("FL2D")) { this.distList =
-									 * impl.getChallanDataFL2D(); }
-									 */
+	public ArrayList getDistList() {
 		return distList;
 	}
 
