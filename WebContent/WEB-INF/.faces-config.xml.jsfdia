@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#jsf#BarGraphReport.jsp"
+  PATH="/jsf/BarGraphReport.jsp" SHAPE="848,33,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:0" NAME="item"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="today:#{barGraphAction.today}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.today}:today" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="currentDay:#{barGraphAction.currentDay}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output1" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.currentDay}:currentDay" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:1" NAME="item1"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="month:#{barGraphAction.month}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.month}:month" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:2" NAME="item2"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail:#{barGraphAction.seedetail}:#jsf#PaiGraphReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphReport.jsp"
+    TARGET="rules:#jsf#PaiGraphReport.jsp"
+    TITLE="#{barGraphAction.seedetail}:seedetail" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:3" NAME="item3"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail1:#{barGraphAction.seedetail1}:#jsf#PaiGraph1Report.jsp"
+    NAME="output" PATH="/jsf/PaiGraph1Report.jsp"
+    TARGET="rules:#jsf#PaiGraph1Report.jsp"
+    TITLE="#{barGraphAction.seedetail1}:seedetail1" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:4" NAME="item4"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail2:#{barGraphAction.seedetail2}:#jsf#PaiGraphBWFLCasesReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphBWFLCasesReport.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLCasesReport.jsp"
+    TITLE="#{barGraphAction.seedetail2}:seedetail2" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:5" NAME="item5"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail3:#{barGraphAction.seedetail3}:#jsf#PaiGraphBWFLBLReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphBWFLBLReport.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLBLReport.jsp"
+    TITLE="#{barGraphAction.seedetail3}:seedetail3" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:6" NAME="item6"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail4:#{barGraphAction.seedetail4}:#jsf#PaiGraphDutyReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphDutyReport.jsp"
+    TARGET="rules:#jsf#PaiGraphDutyReport.jsp"
+    TITLE="#{barGraphAction.seedetail4}:seedetail4" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphReport.jsp:7" NAME="item7"
+   PATH="/jsf/BarGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail5:#{barGraphAction.seedetail5}:#jsf#PaiGraphPaidDutyReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphPaidDutyReport.jsp"
+    TARGET="rules:#jsf#PaiGraphPaidDutyReport.jsp"
+    TITLE="#{barGraphAction.seedetail5}:seedetail5" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#BarGraph2Report.jsp"
+  PATH="/jsf/BarGraph2Report.jsp" SHAPE="576,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:0" NAME="item"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="total:#{barGraphAction.total}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.total}:total" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="currentDay:#{barGraphAction.currentDay}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output1" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.currentDay}:currentDay" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:1" NAME="item1"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="today:#{barGraphAction.today}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.today}:today" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:2" NAME="item2"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail1:#{barGraphAction.seedetail1}:#jsf#PaiGraph1MReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraph1MReport.jsp"
+    TARGET="rules:#jsf#PaiGraph1MReport.jsp"
+    TITLE="#{barGraphAction.seedetail1}:seedetail1" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:3" NAME="item3"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail2:#{barGraphAction.seedetail2}:#jsf#PaiGraphBWFLCasesMReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphBWFLCasesMReport.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLCasesMReport.jsp"
+    TITLE="#{barGraphAction.seedetail2}:seedetail2" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:4" NAME="item4"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail3:#{barGraphAction.seedetail3}:#jsf#PaiGraphBWFLBLMReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphBWFLBLMReport.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLBLMReport.jsp"
+    TITLE="#{barGraphAction.seedetail3}:seedetail3" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:5" NAME="item5"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail4:#{barGraphAction.seedetail4}:#jsf#PaiGraphDutyMReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphDutyMReport.jsp"
+    TARGET="rules:#jsf#PaiGraphDutyMReport.jsp"
+    TITLE="#{barGraphAction.seedetail4}:seedetail4" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:6" NAME="item6"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail:#{barGraphAction.seedetail}:#jsf#PaiGraphCL_MReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphCL_MReport.jsp"
+    TARGET="rules:#jsf#PaiGraphCL_MReport.jsp"
+    TITLE="#{barGraphAction.seedetail}:seedetail" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:7" NAME="item7"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail1:#{barGraphAction.seedetail1}:#jsf#PaiGraph1MReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraph1MReport.jsp"
+    TARGET="rules:#jsf#PaiGraph1MReport.jsp"
+    TITLE="#{barGraphAction.seedetail1}:seedetail1" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph2Report.jsp:8" NAME="item8"
+   PATH="/jsf/BarGraph2Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail5:#{barGraphAction.seedetail5}:#jsf#PaiGraphPaidDutyMReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphPaidDutyMReport.jsp"
+    TARGET="rules:#jsf#PaiGraphPaidDutyMReport.jsp"
+    TITLE="#{barGraphAction.seedetail5}:seedetail5" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#BarGraph3Report.jsp"
+  PATH="/jsf/BarGraph3Report.jsp" SHAPE="304,33,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:0" NAME="item"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="total:#{barGraphAction.total}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.total}:total" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="currentDay:#{barGraphAction.currentDay}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output1" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.currentDay}:currentDay" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:1" NAME="item1"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="month:#{barGraphAction.month}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.month}:month" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:2" NAME="item2"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail:#{barGraphAction.seedetail}:#jsf#PaiGraphCL_TodayReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphCL_TodayReport.jsp"
+    TARGET="rules:#jsf#PaiGraphCL_TodayReport.jsp"
+    TITLE="#{barGraphAction.seedetail}:seedetail" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:3" NAME="item3"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail1:#{barGraphAction.seedetail1}:#jsf#PaiGraph1TReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraph1TReport.jsp"
+    TARGET="rules:#jsf#PaiGraph1TReport.jsp"
+    TITLE="#{barGraphAction.seedetail1}:seedetail1" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:4" NAME="item4"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail2:#{barGraphAction.seedetail2}:#jsf#PaiGraphBWFLCasesTReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphBWFLCasesTReport.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLCasesTReport.jsp"
+    TITLE="#{barGraphAction.seedetail2}:seedetail2" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:5" NAME="item5"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail3:#{barGraphAction.seedetail3}:#jsf#PaiGraphBWFLBLTReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphBWFLBLTReport.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLBLTReport.jsp"
+    TITLE="#{barGraphAction.seedetail3}:seedetail3" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:6" NAME="item6"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail4:#{barGraphAction.seedetail4}:#jsf#PaiGraphDutyTReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphDutyTReport.jsp"
+    TARGET="rules:#jsf#PaiGraphDutyTReport.jsp"
+    TITLE="#{barGraphAction.seedetail4}:seedetail4" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#jsf#BarGraph3Report.jsp:7" NAME="item7"
+   PATH="/jsf/BarGraph3Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail5:#{barGraphAction.seedetail5}:#jsf#PaiGraphPaidDutyTodayReport.jsp"
+    NAME="output" PATH="/jsf/PaiGraphPaidDutyTodayReport.jsp"
+    TARGET="rules:#jsf#PaiGraphPaidDutyTodayReport.jsp"
+    TITLE="#{barGraphAction.seedetail5}:seedetail5" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraph1Report.jsp"
+  PATH="/jsf/PaiGraph1Report.jsp" SHAPE="576,417,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraph1Report.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraph1Report.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphReport.jsp"
+  PATH="/jsf/PaiGraphReport.jsp" SHAPE="576,529,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphCL_MReport.jsp"
+  PATH="/jsf/PaiGraphCL_MReport.jsp" SHAPE="304,433,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphCL_MReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphCL_MReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphCL_TodayReport.jsp"
+  PATH="/jsf/PaiGraphCL_TodayReport.jsp" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphCL_TodayReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphCL_TodayReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraph1MReport.jsp"
+  PATH="/jsf/PaiGraph1MReport.jsp" SHAPE="848,433,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraph1MReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraph1MReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraph1TReport.jsp"
+  PATH="/jsf/PaiGraph1TReport.jsp" SHAPE="32,417,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraph1TReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraph1TReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLBLReport.jsp"
+  PATH="/jsf/PaiGraphBWFLBLReport.jsp" SHAPE="576,641,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLBLReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphBWFLBLReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLBLMReport.jsp"
+  PATH="/jsf/PaiGraphBWFLBLMReport.jsp" SHAPE="304,545,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLBLMReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphBWFLBLMReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLBLTReport.jsp"
+  PATH="/jsf/PaiGraphBWFLBLTReport.jsp" SHAPE="32,529,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLBLTReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphBWFLBLTReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLCasesReport.jsp"
+  PATH="/jsf/PaiGraphBWFLCasesReport.jsp" SHAPE="576,753,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLCasesReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphBWFLCasesReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLCasesMReport.jsp"
+  PATH="/jsf/PaiGraphBWFLCasesMReport.jsp" SHAPE="304,657,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLCasesMReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphBWFLCasesMReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLCasesTReport.jsp"
+  PATH="/jsf/PaiGraphBWFLCasesTReport.jsp" SHAPE="32,641,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLCasesTReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphBWFLCasesTReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphDutyReport.jsp"
+  PATH="/jsf/PaiGraphDutyReport.jsp" SHAPE="576,865,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphDutyReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphDutyReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphDutyMReport.jsp"
+  PATH="/jsf/PaiGraphDutyMReport.jsp" SHAPE="304,769,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphDutyMReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphDutyMReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphDutyTReport.jsp"
+  PATH="/jsf/PaiGraphDutyTReport.jsp" SHAPE="32,753,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphDutyTReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphDutyTReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphPaidDutyTodayReport.jsp"
+  PATH="/jsf/PaiGraphPaidDutyTodayReport.jsp" SHAPE="32,865,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphPaidDutyTodayReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphPaidDutyTodayReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphPaidDutyMReport.jsp"
+  PATH="/jsf/PaiGraphPaidDutyMReport.jsp" SHAPE="304,881,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphPaidDutyMReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphPaidDutyMReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraph2Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphPaidDutyReport.jsp"
+  PATH="/jsf/PaiGraphPaidDutyReport.jsp" SHAPE="576,977,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphPaidDutyReport.jsp:0" NAME="item"
+   PATH="/jsf/PaiGraphPaidDutyReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#ExciseFormsReport.jsp"
+  PATH="/jsf/ExciseFormsReport.jsp" SHAPE="32,1089,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#ExciseFormsReport.jsp:0" NAME="item"
+   PATH="/jsf/ExciseFormsReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="bck::#jsf#Home.jsp" NAME="output"
+    PATH="/jsf/Home.jsp" TARGET="rules:#jsf#Home.jsp" TITLE="bck" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#BarGraphTodayReport.jsp"
+  PATH="/jsf/BarGraphTodayReport.jsp" SHAPE="1120,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#BarGraphTodayReport.jsp:0" NAME="item"
+   PATH="/jsf/BarGraphTodayReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="currentDay:#{barGraphAction.currentDay}:#jsf#BarGraph3Report.jsp"
+    NAME="output" PATH="/jsf/BarGraph3Report.jsp"
+    TARGET="rules:#jsf#BarGraph3Report.jsp"
+    TITLE="#{barGraphAction.currentDay}:currentDay" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="month:#{barGraphAction.month}:#jsf#BarGraph2Report.jsp"
+    NAME="output1" PATH="/jsf/BarGraph2Report.jsp"
+    TARGET="rules:#jsf#BarGraph2Report.jsp"
+    TITLE="#{barGraphAction.month}:month" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="total:#{barGraphAction.total}:#jsf#BarGraphReport.jsp"
+    NAME="output2" PATH="/jsf/BarGraphReport.jsp"
+    TARGET="rules:#jsf#BarGraphReport.jsp"
+    TITLE="#{barGraphAction.total}:total" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail5:#{barGraphAction.seedetail5}:#jsf#PaiGraphPaidDutyCurrentReport.jsp"
+    NAME="output3" PATH="/jsf/PaiGraphPaidDutyCurrentReport.jsp"
+    TARGET="rules:#jsf#PaiGraphPaidDutyCurrentReport.jsp"
+    TITLE="#{barGraphAction.seedetail5}:seedetail5" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail4:#{barGraphAction.seedetail4}:#jsf#PaiGraphDutyTCurrentReport.jsp"
+    NAME="output4" PATH="/jsf/PaiGraphDutyTCurrentReport.jsp"
+    TARGET="rules:#jsf#PaiGraphDutyTCurrentReport.jsp"
+    TITLE="#{barGraphAction.seedetail4}:seedetail4" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail3:#{barGraphAction.seedetail3}:#jsf#PaiGraphBWFLBLTCurrentReport.jsp"
+    NAME="output5" PATH="/jsf/PaiGraphBWFLBLTCurrentReport.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLBLTCurrentReport.jsp"
+    TITLE="#{barGraphAction.seedetail3}:seedetail3" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail2:#{barGraphAction.seedetail2}:#jsf#PaiGraphBWFLCasesTReportCurrent.jsp"
+    NAME="output6" PATH="/jsf/PaiGraphBWFLCasesTReportCurrent.jsp"
+    TARGET="rules:#jsf#PaiGraphBWFLCasesTReportCurrent.jsp"
+    TITLE="#{barGraphAction.seedetail2}:seedetail2" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail1:#{barGraphAction.seedetail1}:#jsf#PaiGraph1TReportCurrent.jsp"
+    NAME="output7" PATH="/jsf/PaiGraph1TReportCurrent.jsp"
+    TARGET="rules:#jsf#PaiGraph1TReportCurrent.jsp"
+    TITLE="#{barGraphAction.seedetail1}:seedetail1" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="seedetail:#{barGraphAction.seedetail}:#jsf#PaiGraphCL_TodayReportCurrent.jsp"
+    NAME="output8" PATH="/jsf/PaiGraphCL_TodayReportCurrent.jsp"
+    TARGET="rules:#jsf#PaiGraphCL_TodayReportCurrent.jsp"
+    TITLE="#{barGraphAction.seedetail}:seedetail" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#Home.jsp" PATH="/jsf/Home.jsp"
+  SHAPE="240,1105,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphPaidDutyCurrentReport.jsp"
+  PATH="/jsf/PaiGraphPaidDutyCurrentReport.jsp" SHAPE="1648,417,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphPaidDutyCurrentReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphPaidDutyCurrentReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphDutyTCurrentReport.jsp"
+  PATH="/jsf/PaiGraphDutyTCurrentReport.jsp" SHAPE="1664,417,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphDutyTCurrentReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphDutyTCurrentReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLBLTCurrentReport.jsp"
+  PATH="/jsf/PaiGraphBWFLBLTCurrentReport.jsp" SHAPE="32,1425,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLBLTCurrentReport.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphBWFLBLTCurrentReport.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphBWFLCasesTReportCurrent.jsp"
+  PATH="/jsf/PaiGraphBWFLCasesTReportCurrent.jsp" SHAPE="1664,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphBWFLCasesTReportCurrent.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphBWFLCasesTReportCurrent.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraph1TReportCurrent.jsp"
+  PATH="/jsf/PaiGraph1TReportCurrent.jsp" SHAPE="32,1425,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraph1TReportCurrent.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraph1TReportCurrent.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PaiGraphCL_TodayReportCurrent.jsp"
+  PATH="/jsf/PaiGraphCL_TodayReportCurrent.jsp" SHAPE="1664,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PaiGraphCL_TodayReportCurrent.jsp:0"
+   NAME="item" PATH="/jsf/PaiGraphCL_TodayReportCurrent.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="barGrapht:#{barGraphAction.back}:#jsf#BarGraphTodayReport.jsp"
+    NAME="output" PATH="/jsf/BarGraphTodayReport.jsp"
+    TARGET="rules:#jsf#BarGraphTodayReport.jsp"
+    TITLE="#{barGraphAction.back}:barGrapht" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+</PROCESS>
